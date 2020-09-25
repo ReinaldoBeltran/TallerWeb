@@ -1,0 +1,32 @@
+
+h1{
+	font: oblique bold 200% cursive;	
+	text-align: center;
+	margin: 7px;
+	padding: 7px;
+}
+
+#groot{
+	width: 400px;
+	height: 580px;
+	 float: left;
+		
+}
+p{
+	font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+}
+footer{
+	clear: both;
+}
+
+body{
+	background: rgba(210,255,82,1);
+background: -moz-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 42%, rgba(145,232,66,1) 45%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(210,255,82,1)), color-stop(42%, rgba(145,232,66,1)), color-stop(45%, rgba(145,232,66,1)));
+background: -webkit-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 42%, rgba(145,232,66,1) 45%);
+background: -o-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 42%, rgba(145,232,66,1) 45%);
+background: -ms-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 42%, rgba(145,232,66,1) 45%);
+background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 42%, rgba(145,232,66,1) 45%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
+
+}
