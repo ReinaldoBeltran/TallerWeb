@@ -24,50 +24,12 @@
 					<th>Equipo Visitante</th>
 				</tr>
 			</thead>
-			<tbody id="res">
-
-				
-			</tbody>
+			
 		</table>
 	</div>
 </div>
-<script >
-	console.log('activo');
 
-document.querySelector('#boton').addEventListener('click',traerDatos());
-
-function traerDatos(){
-	console.log('funcion activada');
-
-	const xhttp = new XMLHttpRequest();
-
-	xhttp.open('GET','partidos.json', true);
-
-	xhttp.send();
-
-	xhttp.onreadystatechange = function(){
-		if (this.readyState ==4 && this.status==200) {
-
-			console.log(this.responseText);
-			let datos = JSON.parse(this.responseText);
-			console.log(datos);
-
-			let res = document.querySelector('#res');
-			res.innerHTML ='';
-			for(let item of datos){
-				res.innerHTML += `
-				<tr> 
-				<td> ${item.fecha}</td>
-				<td> ${item.equipo1}</td>
-				<td> ${item.equipo2}</td>
-				</tr>
-				`
-			}
-		}
-
-	}
-}
-</script>
+<img src="espera.jpg" width="500" height="500">
 
 </body>
 </html>
